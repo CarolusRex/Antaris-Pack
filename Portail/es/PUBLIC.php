@@ -1,0 +1,394 @@
+<?php
+
+/**
+ *  2Moons 
+ *   by Jan-Otto Kröpke 2009-2016
+ *
+ * For the full copyright and license information, please view the LICENSE
+ *
+ * @package 2Moons
+ * @author Jan-Otto Kröpke <slaver7@gmail.com>
+ * @copyright 2009 Lucky
+ * @copyright 2016 Jan-Otto Kröpke <slaver7@gmail.com>
+ * @licence MIT
+ * @version 1.8.0
+ * @link https://github.com/jkroepke/2Moons
+ */
+
+//LOSTPWD
+$LNG['LOSTPWD_1']				= 'Pregunta a cambiar su contraseña';
+$LNG['LOSTPWD_2']				= 'Si ha perdido su contraseña para acceder a su cuenta, debe completar este formulario.';
+$LNG['LOSTPWD_3']				= 'La dirección de correo electrónico a entender es que su cuenta. Sin ella, no se puede cambiar su base de datos de autenticación.';
+$LNG['LOSTPWD_4']				= 'Una vez validado, un correo electrónico será enviado automáticamente a su buzón.';
+$LNG['LOSTPWD_5']				= 'El mensaje contendrá un enlace que le permite cambiar su contraseña de inicio de sesión.';
+$LNG['LOSTPWD_6']				= 'En consecuencia, acepta recibir un correo electrónico de nuestros servicios mediante la validación de esta forma contra.';
+$LNG['LOSTPWD_7']				= 'Cambiar contraseña';
+$LNG['LOSTPWD_8']				= 'Volver a la página inicial';
+$LNG['LOSTPWD_9']				= 'No hay ninguna cuenta asociada a esta dirección de correo electrónico en el universo seleccionado.';
+$LNG['LOSTPWD_10']				= 'Cambiar contraseña';
+$LNG['LOSTPWD_11']				= 'Usted está en el último paso, llenar el formulario para cambiar la contraseña de su cuenta con efecto inmediato.';
+$LNG['LOSTPWD_12']				= 'Ultima actividad';
+$LNG['LOSTPWD_13']				= 'IP';
+$LNG['LOSTPWD_14']				= 'Expiración';
+$LNG['LOSTPWD_15']				= 'Un correo electrónico ha sido enviado a la siguiente dirección : « %s ».<br>
+					Contiene instrucciones sobre cómo cambiar su contraseña.';
+$LNG['LOSTPWD_16']				= 'La contraseña de acceso a su cuenta « %s » se ha cambiado correctamente.';
+//ERREUR404
+$LNG['ERREUR_1']				= 'Dónde estás ? Te has perdido en el universo?';
+$LNG['ERREUR_2']				= 'Dónde estás ?';
+$LNG['ERREUR_3']				= 'Oh no ! ¿En serio? Un vórtice hubiera tragado esta página?';
+$LNG['ERREUR_4']				= 'Página que no existe';
+$LNG['ERREUR_5']				= 'Por favor, mantener la calma y volver a la página anterior.';
+$LNG['ERREUR_6']				= 'Ir a la página principal';
+$LNG['ERREUR_7']				= 'Yo quiero ir a casa';
+$LNG['ERREUR_8']				= 'Ir a la página de registro';
+$LNG['ERREUR_9']				= 'Darse de alta';
+//ERREUR403
+$LNG['ERREUR_10']				= 'Acceso prohibido';
+$LNG['ERREUR_11']				= 'No se supone que estar aquí...';
+$LNG['ERREUR_12']				= 'Usted no tiene permiso para acceder a esta página.';
+$LNG['ERREUR_13']				= 'Página que no existe';
+$LNG['ERREUR_14']				= 'Por favor, y vuélvete a una página que sea accesible por todos.';
+//HOMEPAGE
+$LNG['INDEX_1']					= 'Dirigida por Jeremy Baukens - Todos los derechos reservados -';
+$LNG['INDEX_2']					= 'Acceder al foro de la comunidad ';
+$LNG['INDEX_3']					= 'Comunidad';
+$LNG['INDEX_4']					= 'Mostrar Pie de imprenta Sitio';
+$LNG['INDEX_5']					= 'Notas legales';
+$LNG['INDEX_6']					= 'Al continuar para navegar Antaris Legacy sin cambiar la configuración,
+usted acepta el uso de cookies en su dispositivo &mdash;';
+$LNG['INDEX_7']					= 'Aceptar y cerrar';
+$LNG['INDEX_8']					= 'Cerca';
+$LNG['INDEX_9']					= 'Para volver a la cima';
+$LNG['INDEX_10']				= 'Acceder al menú';
+$LNG['INDEX_11']				= 'Acceder a la página principal de Antaris Legacy';
+$LNG['INDEX_12']				= 'Casa';
+$LNG['INDEX_13']				= 'Breve presentación del juego';
+$LNG['INDEX_14']				= 'Presentación';
+$LNG['INDEX_15']				= 'Lee las reglas antes de empezar a jugar';
+$LNG['INDEX_16']				= 'Reglas';
+$LNG['INDEX_17']				= 'Lea las condiciones de uso de nuestros servicios';
+$LNG['INDEX_18']				= 'Condiciones';
+$LNG['INDEX_19']				= 'Enviar un correo electrónico al administrador del sitio';
+$LNG['INDEX_20']				= 'Contacto';
+$LNG['INDEX_21']				= 'Crea tu cuenta inmediatamente después de Antaris Legacy';
+$LNG['INDEX_22']				= 'Registrar !';
+$LNG['INDEX_23']				= 'Antaris Legacy : Inspirado en el universo Stargate.';
+$LNG['INDEX_24']				= 'Del creador de Pegase Universo y Stargate Aventura.';
+$LNG['INDEX_25']				= 'Antaris Legacy : Portal';
+$LNG['INDEX_26']				= 'Bienvenido a un nuevo mundo de la ciencia ficción !';
+$LNG['INDEX_27']				= 'Conectarse';
+$LNG['INDEX_28']				= 'Antaris Legacy es un juego gratuito basado en el universo Stargate.';
+$LNG['INDEX_29']				= 'Este juego fue creado por una organización independiente, sin conexión con la productora « MGM ».';
+$LNG['INDEX_30']				= 'El registro es necesario para reproducirlo, se tarda menos de un minuto.';
+$LNG['INDEX_31']				= 'Seleccione el universo';
+$LNG['INDEX_32']				= 'Apodo';
+$LNG['INDEX_33']				= 'Contraseña';
+$LNG['INDEX_34']				= 'Jugar !';
+$LNG['INDEX_35']				= 'Contraseña olvidada ?';
+$LNG['INDEX_36']				= 'Regístrese ahora !';
+$LNG['INDEX_37']				= 'Lista de universo';
+$LNG['INDEX_38']				= 'Universo';
+$LNG['INDEX_39']				= 'Estatus';
+$LNG['INDEX_40']				= 'Fecha de inicio';
+$LNG['INDEX_41']				= 'N°. registrado';
+$LNG['INDEX_42']				= 'N°. conectado';
+$LNG['INDEX_43']				= 'Lo último de Antaris Legacy';
+$LNG['INDEX_44']				= 'escrito por';
+//REGISTER
+$LNG['REGISTER_1']				= 'inscribirse en un universo';
+$LNG['REGISTER_2']				= 'abierto';
+$LNG['REGISTER_3']				= 'Para inscribirse en el universo de Antaris Legacy, por favor complete la siguiente información.<br /><span class="color-blue">Una vez completado el registro, recibirá un correo electrónico que contendrá un enlace para activar su cuenta.';
+$LNG['REGISTER_4']				= '¿Le crear o recuperar un mundo existente?';
+$LNG['REGISTER_5']				= 'Para los jugadores <span class="color-blue">principiantes o confirmados</span>';
+$LNG['REGISTER_6']				= 'Crear un mundo';
+$LNG['REGISTER_7']				= 'Reunir un mundo';
+$LNG['REGISTER_8']				= 'Para los jugadores <span class="color-blue">confirmados solamente</span>';
+$LNG['REGISTER_9']				= 'Si usted es un principiante y nunca han jugado previamente en Antaris Legacy, le recomendamos que cree una cuenta desde cero.';
+$LNG['REGISTER_10']				= 'Crear nueva cuenta';
+$LNG['REGISTER_11']				= 'El apodo para acceder a su cuenta.';
+$LNG['REGISTER_12']				= 'La contraseña para iniciar sesión.';
+$LNG['REGISTER_13']				= 'Confirmación';
+$LNG['REGISTER_14']				= 'Confirmación de la contraseña';
+$LNG['REGISTER_15']				= 'Correo electrónico';
+$LNG['REGISTER_16']				= 'La dirección de cuenta de correo electrónico (propietario).';
+$LNG['REGISTER_17']				= 'Nombre planeta';
+$LNG['REGISTER_18']				= 'Nombre del planeta';
+$LNG['REGISTER_19']				= 'El nombre de su planeta madre.';
+$LNG['REGISTER_20']				= 'Introducir el código';
+$LNG['REGISTER_21']				= 'Código';
+$LNG['REGISTER_22']				= 'Sistema para bloquear los robots.';
+$LNG['REGISTER_23']				= 'He leído y acepto las reglas del juego';
+$LNG['REGISTER_24']				= 'Lea las reglas del juego en su totalidad';
+$LNG['REGISTER_25']				= 'Leer todo';
+$LNG['REGISTER_26']				= 'He leído y acepto los términos y condiciones';
+$LNG['REGISTER_27']				= 'Lea los términos y condiciones';
+$LNG['REGISTER_28']				= 'Registro gratuito !';
+$LNG['REGISTER_29']				= 'Confirmar contraseña.';
+$LNG['REGISTER_30']				= 'La contraseña debe tener entre 6 y 32 caracteres.';
+$LNG['REGISTER_31']				= 'La contraseña se ha introducido correctamente.';
+$LNG['REGISTER_32']				= 'La contraseña para entrar.';
+$LNG['REGISTER_33']				= 'La contraseña debe tener entre 6 y 32 caracteres.';
+$LNG['REGISTER_34']				= 'La confirmación de la contraseña es incorrecta.';
+$LNG['REGISTER_35']				= 'La confirmación coincide con la contraseña.';
+$LNG['REGISTER_36']				= 'Confirmar contraseña.';
+$LNG['REGISTER_37']				= 'Este nombre ya está en uso.';
+$LNG['REGISTER_38']				= 'El apodo debe tener entre 3 y 16 caracteres.';
+$LNG['REGISTER_39']				= 'El apodo se llena adecuadamente.';
+$LNG['REGISTER_40']				= 'El apodo para acceder a su cuenta.';
+$LNG['REGISTER_41']				= 'Este correo electrónico ya está en uso.';
+$LNG['REGISTER_42']				= 'Su dirección de correo electrónico no es válida.';
+$LNG['REGISTER_43']				= 'La dirección de correo electrónico es válida.';
+$LNG['REGISTER_44']				= 'La dirección de cuenta de correo electrónico (propietario).';
+$LNG['REGISTER_45']				= 'El nombre debe tener entre 5 y 18 caracteres.';
+$LNG['REGISTER_46']				= 'Sólo letras, números, espacios y «-».';
+$LNG['REGISTER_47']				= 'El nombre del planeta se ha completado correctamente.';
+$LNG['REGISTER_48']				= 'El nombre de su planeta madre';
+$LNG['REGISTER_49']				= 'Por favor proporcione su nombre de usuario para acceder a su cuenta.';
+$LNG['REGISTER_50']				= 'Por favor, introduzca la dirección de correo electrónico de la cuenta (propietario).';
+$LNG['REGISTER_51']				= 'Por favor, introduzca un nombre para su planeta madre / primaria.';
+$LNG['REGISTER_52']				= 'Por favor, acepta en su totalidad solución del juego.';
+$LNG['REGISTER_53']				= 'Por favor, acepta los términos y condiciones.';
+$LNG['REGISTER_54']				= 'Confirmación y la contraseña no son idénticos.';
+$LNG['REGISTER_55']				= 'Su dirección de correo electrónico no es válida.';
+$LNG['REGISTER_56']				= 'Su nombre de usuario no es válido.';
+$LNG['REGISTER_57']				= 'El nombre de nuestro planeta debe contener sólo letras, números, guiones y espacios.';
+$LNG['REGISTER_58']				= 'Por favor, introduzca una dirección de correo electrónico diferente debido a que ya se utiliza.';
+$LNG['REGISTER_59']				= 'Por favor, introduzca un nombre de usuario diferente porque ya se utiliza.';
+$LNG['REGISTER_60']				= 'Su cuenta ha sido creada con éxito el universo « Horizon ».<br />Sin embargo, es necesario activarlo desde su buzón de correo.';
+$LNG['REGISTER_61']				= 'Si usted no ha recibido el correo electrónico de validación, revisar su correo basura (SPAM).';
+$LNG['REGISTER_62']				= 'Una clave de activación ha sido enviada a la dirección de correo electrónico que ha introducido.';
+$LNG['REGISTER_63']				= 'Si no ha recibido ningún mensaje en su bandeja de entrada, compruebe si no es en su spam.';
+$LNG['REGISTER_64']				= 'Usted tiene 7 días para activar su cuenta antes de que se elimina permanentemente.';
+$LNG['REGISTER_65']				= 'Por favor, introduzca el código de seguridad que permite asegurar que no eres un robot.';
+$LNG['REGISTER_66']				= 'El código de seguridad que ha especificado no es válido.';
+$LNG['REGISTER_67']				= 'El código de seguridad no es válida.';
+$LNG['REGISTER_68']				= 'Sistema para bloquear los robots';
+$LNG['REGISTER_69']				= 'El código « anti-bot » es válida';
+$LNG['REGISTER_70']				= 'Por favor, introduzca una contraseña para acceder a su cuenta.';
+$LNG['REGISTER_71']				= 'Por favor, introduzca una nueva contraseña para acceder a su cuenta.';
+$LNG['REGISTER_72']				= 'Antaris Legacy - Registro en el portal';
+//CONTACT
+$LNG['CONTACT_0']				= 'Contáctenos';
+$LNG['CONTACT_1']				= 'Póngase en contacto con nosotros por correo electrónico';
+$LNG['CONTACT_2']				= 'Puede ponerse en contacto con el « Antaris Legacy » administrador del sitio a través del siguiente formulario.';
+$LNG['CONTACT_3']				= 'Sabiendo que está estrictamente prohibido en contacto con nosotros por motivos relacionados con el juego en sí, ';
+$LNG['CONTACT_4']				= 'es decir, los insectos, las quejas y solicitudes de asistencia.';
+$LNG['CONTACT_5']				= 'Recordamos a nuestros visitantes y nuestros jugadores es posible pedir ayuda y hacer preguntas en nuestro foro comunitario.';
+$LNG['CONTACT_6']				= 'Un miembro de nuestro equipo esperamos poder responder a sus preguntas.';
+$LNG['CONTACT_7']				= 'Al llenar el formulario a continuación, tomar nota de que recibirá un correo electrónico de « copie » de nosotros.';
+$LNG['CONTACT_8']				= 'También autoriza a proteger su IP para fines técnicos.';
+$LNG['CONTACT_9']				= 'Rellene el formulario de contacto';
+$LNG['CONTACT_10']				= 'Su nombre o apodo';
+$LNG['CONTACT_11']				= 'Nombre o apodo';
+$LNG['CONTACT_12']				= 'Su dirección de correo electrónico';
+$LNG['CONTACT_13']				= 'Título del mensaje';
+$LNG['CONTACT_14'][1]			= 'Solicitud de contratación';
+$LNG['CONTACT_14'][2]			= 'Solicitud de asociación';
+$LNG['CONTACT_14'][3]			= 'Las preguntas sobre las compras in-app';
+$LNG['CONTACT_14'][4]			= 'Problema durante una compra de PayPal';
+$LNG['CONTACT_14'][5]			= 'Bug bloquea totalmente su cuenta';
+$LNG['CONTACT_14'][6]			= 'Otro';
+$LNG['CONTACT_19']				= 'Vuestro mensaje';
+$LNG['CONTACT_20']				= 'Su mensaje aquí...';
+$LNG['CONTACT_21']				= 'Anti-Robot';
+$LNG['CONTACT_22']				= 'Envíe su mensaje';
+$LNG['CONTACT_23']				= 'Notas legales';
+$LNG['CONTACT_24']				= 'Editorial y la sede';
+$LNG['CONTACT_25']				= 'El sitio « Antaris Legacy » en su conjunto está gestionado y mantenido por un voluntario.';
+$LNG['CONTACT_26']				= 'información';
+$LNG['CONTACT_27']				= 'Nombre del consejero';
+$LNG['CONTACT_28']				= 'Directora de la publicación';
+$LNG['CONTACT_29']				= 'Dirección postal';
+$LNG['CONTACT_30']				= 'Teléfono';
+$LNG['CONTACT_31']				= 'Solicitud por correo electrónico';
+$LNG['CONTACT_32']				= 'Alojamiento';
+$LNG['CONTACT_33']				= 'Los sitios web Antaris heredados están alojados en nuestro proveedor : OVH';
+$LNG['CONTACT_34']				= 'información';
+$LNG['CONTACT_35']				= 'Anfitrión';
+$LNG['CONTACT_36']				= 'Dirección del host';
+$LNG['CONTACT_37']				= 'Por favor, introduzca su identidad: nombre y apellido o sobrenombre.';
+$LNG['CONTACT_38']				= 'Por favor, introduzca una dirección de correo electrónico.';
+$LNG['CONTACT_39']				= 'Por favor, introduzca una dirección de correo electrónico que sea válida.';
+$LNG['CONTACT_40']				= 'Por favor, escriba un mensaje para ser enviado.';
+$LNG['CONTACT_41']				= 'Su mensaje debe contener más de 25 caracteres.';
+$LNG['CONTACT_42']				= 'El tema elegido no es válido.';
+$LNG['CONTACT_43']				= 'Su mensaje ha sido enviada al administrador del sitio. Usted recibirá una copia de su buzón.';
+$LNG['CONTACT_44']				= 'Por favor, introduzca el código de seguridad.';
+//PRESENTATION
+$LNG['PRESENTATION_1']			= 'Presentación';
+$LNG['PRESENTATION_2']			= 'Antaris Legacy es un navegador de estrategia de gestión de la caza / multijugador masivo, 
+		basado en un universo de ciencia ficción enteramente inventado.';
+$LNG['PRESENTATION_3']			= '¿Tiene suficiente material para tomar parte en la lucha por participar en grandes batallas, explorar lo desconocido, y construir su propio imperio 
+		Embarcarse ahora en un universo de ciencia ficción sin límites: la conquista del espacio y sus tierras inexploradas,
+colonizar muchos planetas para expandir su imperio y aumentar su poder, no evolucionar su tecnología y edificios,
+formar su propio ejército y su flota espacial para luchar contra las fuerzas de sus enemigos con sus aliados o solos.';
+$LNG['PRESENTATION_4']			= '¿Cree que puede competir con otras naciones para imponer su ideología, sus leyes ? 
+		Unirse a los jugadores que ya la espera de que la batalla !';
+$LNG['PRESENTATION_5']			= 'Descubre un espacio único y juego de tierra en su género, donde la comunidad cálida y
+La solidaridad sólo pide para ampliar y pasar tiempo de calidad con usted.';
+$LNG['PRESENTATION_6']			= 'Presentación imagen';
+$LNG['PRESENTATION_7']			= 'Sala de Control';
+$LNG['PRESENTATION_8']			= 'Sensores interestelares';
+$LNG['PRESENTATION_9']			= 'Portal de teletransporte';
+$LNG['PRESENTATION_10']			= 'Centro espacial';
+$LNG['PRESENTATION_11']			= 'Edificios';
+$LNG['PRESENTATION_12']			= 'Tecnologías';
+$LNG['PRESENTATION_13']			= 'Equipo especializado';
+$LNG['PRESENTATION_14']			= 'Defensas';
+$LNG['PRESENTATION_15']			= 'Poblaciones';
+$LNG['PRESENTATION_16']			= 'Banco: la evolución del mercado';
+$LNG['PRESENTATION_17']			= 'Estadísticas del universo';
+$LNG['PRESENTATION_18']			= 'Misión para principiantes';
+$LNG['PRESENTATION_19']			= 'Internets navegadores compatibles';
+$LNG['PRESENTATION_20']			= 'El juego dispone de los últimos lenguajes de programación (<em>en particular, CSS3, HTML5 y el jQuery</em>), en consecuencia,
+su navegador web debe ser actualizado regularmente para jugar en las mejores condiciones posibles. 
+		<strong>Se recomienda encarecidamente el uso de Mozilla Firefox o Google Chrome.</strong>';
+$LNG['PRESENTATION_21']			= 'Logotipo de Chrome';
+$LNG['PRESENTATION_22']			= 'Versión <strong>5 y más</strong>';
+$LNG['PRESENTATION_23']			= 'El sitio de Google Chrome';
+$LNG['PRESENTATION_24']			= 'Logotipo de Mozilla Firefox';
+$LNG['PRESENTATION_25']			= 'El sitio de Mozilla';
+$LNG['PRESENTATION_26']			= 'Versión <strong>4 y más</strong>.';
+$LNG['PRESENTATION_27']			= 'Logotipo de Safari de Apple';
+$LNG['PRESENTATION_28']			= 'Versión <strong>4.* y más</strong>';
+$LNG['PRESENTATION_29']			= 'El sitio de Safari';
+$LNG['PRESENTATION_30']			= 'Logotipo deInternet explorar';
+$LNG['PRESENTATION_31']			= 'Versión <strong>9 y más</strong>';
+$LNG['PRESENTATION_32']			= 'El sitio de Internet Explorer';
+$LNG['PRESENTATION_33']			= 'Porcentajes / estadísticas que se obtuvieron a través de Google Analytics « antaris-legacy.co », 6 de enero de, el año 2016. *';
+//RULES
+$LNG['RULES_1'] 				= 'Reglas del juego';
+$LNG['RULES_2'] 				= 'Multi-cuenta';
+$LNG['RULES_3'] 				= 'Anónimo navegación';
+$LNG['RULES_4'] 				= 'Cogestión';
+$LNG['RULES_5'] 				= 'Donaciones cuenta';
+$LNG['RULES_6'] 				= 'Cuenta del Préstamo';
+$LNG['RULES_7'] 				= 'Pausa';
+$LNG['RULES_8'] 				= 'Contraseña: seguridad';
+$LNG['RULES_9'] 				= 'Seudo robo';
+$LNG['RULES_10'] 				= 'La comunicación Antaris Legacy';
+$LNG['RULES_11'] 				= 'Eliminar cuenta';
+$LNG['RULES_12'] 				= 'Cuentas';
+$LNG['RULES_13'] 				= 'Las reglas del comercio - Push';
+$LNG['RULES_14'] 				= 'Pacto Out';
+$LNG['RULES_15'] 				= 'El tipo de comercio / Push';
+$LNG['RULES_16'] 				= 'Cuenta « latente »';
+$LNG['RULES_17'] 				= 'Elusión de las normas comerciales';
+$LNG['RULES_18'] 				= 'Los ataques';
+$LNG['RULES_19'] 				= 'Tiempo de guerra';
+$LNG['RULES_20'] 				= 'Tregua General';
+$LNG['RULES_21'] 				= 'Alianzas';
+$LNG['RULES_22'] 				= 'Tiempo de guerra';
+$LNG['RULES_23'] 				= 'Bugs/errores';
+$LNG['RULES_24'] 				= 'Ayudas técnicas';
+$LNG['RULES_25'] 				= 'Bugs y errores';
+$LNG['RULES_26'] 				= 'Los insultos y amenazas';
+$LNG['RULES_27'] 				= 'Requisitos particulares para el chat';
+$LNG['RULES_28'] 				= 'Respeto Reglamento';
+$LNG['RULES_29'] 				= 'Sanciones';
+$LNG['RULES_30'] 				= "Inconvenientes";
+$LNG['RULES_31'] 				= 'Responsabilidades y cambios';
+$LNG['RULES_32'] 				= 'Reglas del juego';
+/* $LNG['RULES_33']				= 'Tout joueur ayant accepté ce règlement, en accepte les conséquences, telles que les possibles sanctions.       Ce règlement peut être modifié à tout moment et sans préavis. Une annonce forum ou in-game sera, bien sûr faite, suite à ces modifications.<br /><br />            De plus, les nouvelles règles ont un effet rétroactif, l'utilisateur ne pouvant pas s'y opposer à moins de supprimer l'ensemble de ses comptes de nos services.<br /><br />        Antaris Legacy ne peut être tenu responsable d'inconvénient ou autre, causé à la suite d'un bug.';
+$LNG['RULES_34']				= 'Pour revenir en haut de page';
+$LNG['RULES_35']				= 'Revenir en haut de page';
+$LNG['RULES_36']				= 'Nous rappelons que les joueurs ne peuvent pas demander de remboursement lorsque leurs comptes subissent un ou plusieurs bugs/erreurs.       Si la majorité des joueurs sont touchés par un bug, le Staff pourra décider d'effectuer un éventuel back-up (retour en arrière) selon la gravité de celui-ci.       Les back-ups ne peuvent pas être effectué sur un seul et unique compte.<br /><br />        Un joueur ne pourra pas demander un dédommagement suite à la perte des actions effectuées sur son compte lors d'un retour en arrière de l'univers.';
+$LNG['RULES_37']				= 'Le non-respect des règles inscrites dans ce règlement peut entraîner une sanction sur le compte fautif aussi bien sur le jeu que sur le forum.       De plus, conformément aux conditions générales, un compte ainsi que l'utilisateur « physique » peuvent être bannis de l'ensemble des services proposé par Antaris Legacy de manière       temporaire ou définitif. Un administrateur ou modérateur peut re-bannir un compte appartenant à un utilisateur qui s'est inscrit (en contournant les moyens de vérification technique ou non)       malgré son bannissement définitive ou temporaire.<br /><br />        En cas d'infraction au règlement, les modérateurs et les administrateurs du Staff sont les seuls à pouvoir décider de la peine à appliquer.       De plus, le staff se réserve le droit de refuser et/ou sanctionner, tout ce qui peut nuire à l'éthique ou au développement du jeu.       Tout comportement nuisant à l'atmosphère générale du tchat se verra sanctionné.<br /><br />        La durée de la sanction et la peine appliquée dépend uniquement du jugement donné par le modérateur.       Les peines sont variables : avertissement, bannissement temporaire allant d'un 1 jour à plusieurs années ou définitif et/ou bannissement du tchat.<br /><br />        La sanction peut être contestée sur le forum, dans la partie "Plainte", le titre du sujet devra être écrit de la manière suivante : "Pseudo conteste sa sanction".       Afin d'être le plus juste possible, la sanction attribuée par le modérateur sera réexaminé par un autre membre du Staff, dans la mesure du possible uniquement.<br /><br />              Les comptes bannis ne peuvent pas être attaqués pendant toute la durée de la sanction. Néanmoins, lors de la mise en place d'une sanction,       le compte du joueur est sorti du mode pause au préalable, dans le cas où il est activé. Ce mode n'est pas réactivé à la fin de la peine.       Libre au joueur de se mettre en pause de lui-même après la fin du délai de bannissement.';
+$LNG['RULES_38']				= 'Le tchat général est considéré comme un service optionnel qui peut être retirer à tout moment sans que l'utilisateur puisse s'y opposer.<br /><br />              Par conséquent, un membre de l'équipe d'Antaris Legacy, qu'il soit modérateur ou administrateur, peut muter (c'est-à-dire, bannir temporairement ou de manière permanente un joueur du tchat général)       sans devoir se justifier auprès de l'utilisateur en question. La décision ne pourra pas être contestée puisque le « mute » n'interdit pas l'accés aux éléments essentiels du compte.<br /><br />              Il est strictement interdit de mettre des coordonnées de planète (sauf planète mère) sur le tchat général, ainsi que la composition d'une armée autre que la sienne sous peine de sanction.       Si vous avez besoin de les transmettre, donnez les par message privé ou par chuchotement. Il est également interdit de faire de la publicité pour tout autre jeu par navigateur internet.';
+$LNG['RULES_39']				= 'Nous souhaitons rappeler que ceci est un jeu, veuillez garder une attitude correcte et respectable envers les autres joueurs de notre communauté.<br /><br />        Il est strictement interdit d'écrire des messages à caractère insultant et/ou irrespectueux (discriminations, racisme, homophobe, pornographie).       De même, les messages visant uniquement à provoquer des insultes de la part de l'interlocuteur dans le but de le faire bannir sont interdits et sanctionnables.       Certains membres de la communauté peuvent être de jeunes adolescents, par conséquent, les propos pouvant heurter la sensibilité des plus jeunes sont interdits       dans le jeu, comme sur le forum.<br /><br />        Les règles ci-dessus sont valables aussi pour les pseudos, les noms de planètes, les noms d'alliances, les descriptions d'alliances,       les messages publics (tchat) et privés (message privé ou d'alliance).<br /><br />        Toutes menaces qui sortent du contexte du jeu (les menaces dans un contexte de rôle-play sont autorisées) sont strictement interdites. Le modérateur est le seul à pouvoir       fixer la frontière/la limite entre le rôle-play et le « réel ». Il pourra prendre des sanctions en conséquence.<br /><br />        Un joueur peut porter plainte sur le forum, dans la section "Plaintes", si un des joueurs de la communauté ne respecte pas les règles inscrites dans ce paragraphe.';
+$LNG['RULES_40']				= 'Antaris Legacy étant un jeu en perpétuelle évolution, il peut arriver que vous rencontriez des bugs ou des erreurs durant votre aventure.       Ces erreurs sont à déclarer immédiatement sur le Forum dans la section "Bug et erreurs".<br /><br />        Il est strictement interdit d'utiliser les bugs/erreurs à son avantage sous peine de très lourde sanction.       La non-divulgation d'un bug constaté (avantageux ou non) pourra aussi entrainer une sanction.<br /><br />        En cas de bug, il est possible qu'un message d'erreur s'affiche sur votre écran, afin de nous aider à le corriger dans les plus brefs délais,       veuillez enregistrer ce message et le transmettre au Staff via le Forum.<br /><br />        Le Staff ne peut être tenu responsable des problèmes liés à un bug. L'équipe d'Antaris Legacy ne rembourse pas les pertes liées à une erreur.       Seuls les bugs lors d'une transaction Paypal ou Allopass seront remboursés (après présentation de preuve : le code Allopass ou le numéro de transaction Paypal).';
+$LNG['RULES_41']				= 'Il est strictement interdit d'utiliser des bots ou des scripts pour automatiser certaines actions du jeu. L'utilisateur doit obligatoirement utiliser un navigateur       standard pour jouer sur son compte (Mozilla firefox, Internet Explorer, Safari, Chrome, etc...). L'utilisation d'add-ons est aussi prohibé. L'administrateur du       jeu peut bannir à vie et sans préavis, un joueur ne respectant pas l'interdiction formelle citée précédemment.<br /><br />        Les utilisateurs peuvent créer et utiliser des documents word/excel pour sauvegarder des données et/ou des coordonnées de planètes, cependant, il       est strictement interdit de scanner l'ensemble de la galaxie par un moyen automatique.';
+$LNG['RULES_42']				= 'En temps de guerre, un joueur doit attendre un minimum 72h après le début de la guerre pour quitter son alliance (il est également interdit de renvoyer un joueur de son alliance durant ce délai).       De plus, un joueur ne peut pas quitter son alliance entre le moment de la déclaration d'une guerre et son commencement. Le non-respect de ces règles peut entraîner une sanction.<br /><br />       En temps de paix, le joueur peut quitter son alliance à n'importe quel moment.';
+$LNG['RULES_43']				= 'N'importe quel joueur a le droit de décider de fonder une alliance, cependant, toute alliance doit respecter des règles de base, comme un nom décent,       une page d'accueil correcte avec un texte sans provocation et sans images choquantes.<br /><br />        Toute présentation d'alliance, à caractère insultant ou irrespectueux (discrimination, racisme, homophobie, pornographie) fera l'objet d'une sanction.<br /><br />        Le fondateur est le seul responsable du contenu de la description de son alliance, ainsi, il devra donner les droits d'éditions uniquement à des personnes de confiance.       Si la description ne respecte pas les règles établies ci-dessus, le fondateur de l'alliance pourra être banni temporairement ou définitivement du jeu.<br /><br />        Les alliances peuvent établir un règlement interne, si celui-ci, respecte les règles d'Antaris Legacy, de la loi française, de la doctrine et de la morale.';
+$LNG['RULES_44']				= 'Le Staff peut décider de mettre en place une trêve générale sur l'univers pour plusieurs raisons :       <ul>         <li>pendant des périodes ou des journées particulières</li>         <li>suite à une maintenance qui n’a pas été prévue</li>         <li>suite à d’éventuels bugs sur les attaques</li>       </ul>             Lors d'une trêve générale, aucune attaque n'est tolérée, cependant, les espionnages sont autorisés.<br /><br />              Le système qui gère la trêve générale bloque uniquement le <u>lancement</u> des attaques lors de la trêve.       Par conséquent, c'est le joueur qui doit annuler obligatoirement et manuellement les attaques spatiales lancées avant la trêve et qui aboutiront pendant celle-ci.       Le non-respect de cette règle peut justifier le dépôt d'une plainte du joueur ayant subit l'attaque non-réglementaire.';
+$LNG['RULES_45']				= 'Une alliance peut déclarer simultanément la guerre contre 4 autres alliances maximum.       Sachant que l'on ne peut pas déclarer la guerre à une alliance étant déjà en guerre contre 7 autres alliances.       Une guerre a une durée limitée qui doit être fixée entre 14 et 31 jours.       La déclaration de guerre doit s'effectuer 72h à l'avance sur le forum.<br /><br />              De plus, il y a une période minimum de 24 heures avant le début de la guerre, où aucunes attaques peut être lancées contre un joueur d'une alliance faisant partie de la guerre déclarée.       Si un membre du Staff en décide, cette période peut être rallongée sans qu'aucune explication soit fournit. De même, les dates des guerres peuvent être modifiées par le modérateur,       si celui-ci le juge nécessaire.<br /><br />        Les règles d'attaques en temps de guerre sont les suivantes :       <ul>         <li>Un joueur ne peut attaquer que 12 fois dans un cycle de 72h, un autre joueur.</li>         <li>Ce cycle de 72h contient un ou plusieurs cycles de 24h.</li>         <li>L’attaquant ne peut attaquer que 6 fois par cycle de 24h.</li>         <li>Le joueur ne peut attaquer qu’une fois, par cycle de 24h, une même planète via le Portail de téléportation.</li>       </ul>        Une guerre doit être déclarée uniquement par le fondateur de l'alliance en question. Si cette règle n'est pas respectée, la guerre peut être annulée par la seule décision d'un modérateur.<br /><br />              Quand la guerre est terminée, il n'est pas possible d'en redéclarer une autre contre les mêmes alliances avant un délai de 14 jours.       Les alliances qui sont composées que d'un seul membre ne peuvent pas intégrées une guerre (le fondateur peut être sanctionné pour le non-respect de cette règle).';
+$LNG['RULES_46']				= 'Les attaques sont interdites envers les comptes suivants :       <ul>         <li>en mode pause.</li>         <li>appartenant à un membre du staff.</li>         <li>plus faible ou plus fort que le vôtre (limite fort/faible).</li>         <li>en multi-compte avec le vôtre (même adresse IP).</li>         <li>allié avec vous (pacte automatique, membre de la même alliance, etc...).</li>       </ul>        Vous devez respecter les règles d’attaques suivantes :       <ul>         <li>Un joueur ne peut attaquer que 6 fois dans un cycle de 72h, un autre joueur.</li>         <li>Ce cycle de 72h contient un ou plusieurs cycles de 24h.</li>         <li>L’attaquant ne peut attaquer que 3 fois par cycle de 24h.</li>         <li>Le joueur ne peut attaquer qu’une fois, par cycle de 24h, une même planète via le Portail de téléportation.</li>       </ul>              Un système de gestion des attaques bloque les éventuelles attaques qui ne respecteraient pas les règles ci-dessus. Cependant, veuillez contacter       le Staff en cas de problème avec ce gestionnaire d’attaque.<br /><br />              Il est strictement interdit de contourner la limite d'attaque fort / faible en effectuant un prêt à un autre joueur dans l'unique but de modifier ses points.       Tout contournement de cette limite, et ce quelque soit le moyen employé, se verra sanctionné par un membre du Staff.<br /><br />        Enfin, le staff peut mettre en place une trêve générale sur le serveur, suite à une maintenance qui n’a pas été prévu,       ou suite à d’éventuels bugs sur les attaques. Pendant la trêve, aucune attaque n’est tolérée, cependant, les espionnages sont autorisés.';
+$LNG['RULES_47']				= 'Tout contournement des règles ou des blocages du jeu, par quelque moyen que ce soit, est considéré comme une infraction au règlement et par conséquent sanctionnable.<br /><br />        Liste non exhaustive des actions prohibées dans le jeu :       <ul>         <li>Augmenter volontairement la masse de ressources échangée entre deux comptes afin d'être avantagé par les 25% de marge autorisée.</li>         <li>Crasher volontairement des troupes et du matériel sur un joueur plus fort.</li>         <li>Les attaques arrangées sont à proscrire.</li>         <li>Le commerce dit triangulaire est interdit (utiliser un compte tiers pour pallier au blocage des comptes en multi).</li>       </ul>              Un joueur contournant le règlement s'expose à des sanctions pouvant aller jusqu'au blocage définitif du compte.';
+$LNG['RULES_48']				= 'Un compte « dormant » est un compte stagnant (le joueur ne développe plus son compte), utilisé dans le seul et unique but de produire de la population, des ressources       et appareils afin de les envoyer sur le compte d'un autre joueur ou d'un groupe de joueurs. Toute transaction de la sorte est strictement interdite.       Chaque joueur prenant part à de telles transactions est passible de bannissement.';
+$LNG['RULES_49']				= ' Le commerce entre deux joueurs doit respecter les taux ci-dessous (avec une marge d’erreur de 25%) pour être équitable :       <ul>         <li>Ressource : 4 unités de Fer = 3 unités d’Or = 2 unités de Cristal = 1 unités de Elyrium.</li>         <li>Appareil : il suffit de convertir le prix de l’appareil selon le taux ci-dessus.</li>         <li>Population : 1 unité de formation = 20 unités de Fer.</li>       </ul>        Un échange dure au maximum 48h. Cependant, si à la fin de ce délai, l’échange effectué est toujours inéquitable, alors, le système de push vous accordera un délai       supplémentaire de 24h pour vous mettre en règle. Au bout de ces 24h, si l’échange est toujours inéquitable, vous devez faire une demande de push sur le forum dans la section approprié.       Un modérateur se chargera de votre demande et traitera les sujets, au cas par cas, (cela n’exclut pas que vous pouvez être banni pour non-respect de la règle).<br /><br />        Si vous êtes dans une situation irrégulière suite à un échange inéquitable terminé (72h écoulées) et que vous n’avez pas fait une « demande de push » sur le forum, alors les deux       comptes fautifs seront sanctionné sans préavis.<br /><br />        Les joueurs ont à leur disposition, une page leur permettant de savoir si leurs échanges sont équitables ou non. Pour cela, rendez vous dans la page « Commerce », puis l’onglet « Push ».<br /><br />        Un compte qui est utilisé uniquement dans le but d'en approvisionner un autre, se verra banni à vie, et le compte « receveur » sera sanctionné de manière exemplaire.';
+$LNG['RULES_50']				= 'Lors d’une rupture de pacte (entre joueur ou automatique), vous devez attendre un délai de 24 heures avant d’attaquer votre ancien allié.       Le non-respect de la trêve de 24 heures peut entraîner une sanction.';
+$LNG['RULES_51']				= 'Le commerce n’est valable que s’il y a un échange entre deux joueurs (les règles ci-dessous ne s’appliquent pas à l’utilisation de la banque).<br /><br />        Pour pouvoir effectuer des transactions commerciales, il faut au préalable que les deux joueurs possèdent un pacte. Le pacte peut être automatique       (c'est-à-dire que deux joueurs qui sont dans la même alliance n’ont pas besoin de faire de pacte, entre eux, pour pouvoir commercer, de même,       pour deux joueurs qui sont dans des alliances « amies »).<br /><br />        Il est strictement interdit d’envoyer des ressources vers un joueur fort sans un retour équitable (respect des taux du commerce) dans un délai de 48h après le premier envoi.';
+$LNG['RULES_52']				= 'Antaris Legacy conserve, à des fins purement technique, les données personnelles de votre compte pour une durée limitée de 10 jours après la demande de suppression celui-ci.       Vos données personnelles sont supprimées intégralement et définitivement de nos serveurs après ce délai.<br /><br />              Néanmoins, vous avez toujours la possibilité de demander la suppression dans les plus brefs délais de ses données personnelles       en contactant l'administrateur via cette adresse email : staff@antaris-legacy.co';
+$LNG['RULES_53']				= 'Le staff se réserve le droit de lire les messages, y compris les messages échangés entre les joueurs, afin de vérifier le respect du règlement.       C'est-à-dire, que les systèmes mis à disposition dans le jeu pour communiquer (comme par exemple, les chuchotements dans le « Tchat » ou les messages privés, etc...)       peuvent être utilisés contre vous en cas de litige.<br /><br />              En vous inscrivant sur un de nos univers, vous donnez obligatoirement l'autorisation au Staff de lire l'ensemble de vos messages.       Cette autorisation est annulée automatiquement et uniquement par la suppression de votre compte.<br /><br />        Si vous souhaitez avoir des discussions privées avec un autre joueur, vous devez utiliser un autre moyen de communication : Skype, Msn, Facebook, etc...';
+$LNG['RULES_54']				= 'L'usurpation de pseudo est le fait de prendre délibérément un pseudo pratiquement identique à un autre joueur de l'univers afin de semer une confusion.       Il est strictement interdit d'essayer de s'approprier le pseudo d'un autre joueur, même en utilisant quelques variantes (une ou quelques lettres qui diffèrent mais qui se ressemblent).       <br />Exemple : le pseudo TOm avec un "O" majuscule et le pseudo T0m avec le chiffre zéro.';
+$LNG['RULES_55']				= 'Le mot de passe est la sécurité qui empêche une autre personne de se connecter à votre compte, il est donc recommandé d'en choisir un difficile à trouver       (éviter de mettre votre prénom par exemple), de 8 caractères minimum, avec des lettres, des nombres et des caractères spéciaux.<br /><br />        Votre mot de passe ne doit jamais être divulgué. Le staff ne vous demandera jamais votre mot de passe. Néanmoins, afin d’effectuer un prêt de compte, vous devez fournir votre       mot de passe à l’autre joueur. Le staff n’est pas responsable en cas de problème dans cette situation.<br /><br />        Les mots de passe sont cryptés par nos serveurs. Par conséquent, les comptes ne peuvent être piratés que dans le cas où le mot de passe est trop simple.';
+$LNG['RULES_56']				= 'Le mode pause est activable via le « profil » du compte. La durée minimum du mode pause est de 72h. Il faut attendre une durée minimum de 48h avant de pouvoir se remettre en mode pause.<br /><br />              La pause provoque l’arrêt de la production de toutes les ressources. En revanche, les constructions, les développements et la production de population continuent à se dérouler pendant la pause.<br /><br />              Les modes chaines et rapides ne sont pas mise en pause non plus, c’est-à-dire, que si vous vous mettez en mode pause pendant 4 jours, alors vous perdrez 4 jours d’activation de votre mode.<br /><br />              Les attaques, les espionnages et les échanges commerciaux avec un compte en mode pause sont impossible. Seules les attaques et les échanges par flotte qui       sont en cours lors de la mise en pause sont menées à terme.<br /><br />        Il est strictement interdit de se mettre en mode pause après avoir effectué une attaque. Vous devez attendre un délai minimum de 1h entre la dernière attaque envoyée et votre mise en pause.       Le non-respect de cette règle peut entraîner une sanction suite à la plainte d'un joueur.';
+$LNG['RULES_57']				= 'Un joueur a la possibilité de prêter son compte à un autre joueur qui est déjà inscrit sur le même univers. Toutefois, le prêt de compte doit avoir une durée minimale de       48h et ne doit pas dépasser la durée maximale de 14 jours.<br /><br />        Le prêteur doit auparavant faire une déclaration de prêt dans la partie adéquat du forum d'Antaris Legacy. Il faut qu’un membre du Staff ait confirmé le prêt avant que le joueur « receveur »       se connecte au compte.<br /><br />        Pendant la durée du prêt, le prêteur ne doit pas se connecter au compte, se reporter au paragraphe de la cogérance (si le prêteur se connecte avant la fin du prêt       qu'il aura stipulé sur le forum, alors, il devra prévenir via le même sujet la fin prématurée du prêt).<br /><br />        Le joueur « receveur » a l'interdiction d'effectuer des actions militaires hostiles sur le compte dont il s'occupe provisoirement (attaques et espionnages).       Il est cependant autorisé à effectuer des contre-attaques via son propre compte. Le prêteur n'est pas autorisé à transférer son armée au receveur.       Le non-respect de cette règle pourra entraîner une sanction de ce joueur.<br /><br />        Le prêteur doit faire confiance à l’autre joueur pour effectuer un prêt de compte. Le staff n’est pas responsable des actions qui seront effectuées sur le compte du prêteur       (suppression de planète, modification du mot de passe, ou tout simplement la suppression pure et simple du compte).<br /><br />        Enfin, le prêt de compte n’annule pas les règles de multi-compte, de commerce, et de cogérance. Un compte qui a été prêté ne peut pas l’être de nouveau avant       un délai minimum de la dernière durée de prêt multiplié par 2 (c’est-à-dire que si vous avez effectué un prêt de 4 jours, alors il faudra attendre 8 jours avant qu’un nouveau prêt soit possible).';
+$LNG['RULES_58']				= 'Antaris Legacy autorise le don de compte. Une personne peut donner son compte à une autre seulement dans les conditions suivantes : le donneur souhaite arrêter       de jouer ou le donneur et le receveur souhaite s’échanger leur compte.<br /><br />              Il est strictement interdit de donner un compte contre un bien en échange (sauf un autre compte St Ag). Nous rappelons que le compte est la propriété d'Antaris Legacy.<br /><br />        De plus, les dons de compte doivent être déclarés au préalable sur le forum, et bien entendu, un membre du Staff doit l’avoir validé avant que le don soit effectif.<br /><br />        Le don doit respecter et approuver les règles énoncées précédemment. Un don est complètement validé une fois que l’adresse email du compte a été modifiée par un modérateur.       Le nouveau propriétaire devra lui fournir son adresse email par MP ou par email.';
+$LNG['RULES_59']				= 'La cogérance est le fait d’avoir plusieurs personnes qui se connectent sur un même compte pour jouer ensemble. La cogérance est strictement interdite sur Antaris Legacy.<br /><br />        La même personne propriétaire du compte peut cependant se connecter à divers endroits (adresse IP différentes). Cela n’est pas considéré comme de la cogérance.';
+$LNG['RULES_60']				= 'Afin de limiter la triche, le détournement de sanction et les multi-comptes, l'équipe d'Antaris Legacy       se réserve le droit de bloquer tout compte utilisant un VPN, un proxy internet ou autre moyen permettant de rendre un compte anonyme.';
+$LNG['RULES_61']				= 'Une même personne ne peut pas avoir plusieurs comptes sur un même univers. Deux comptes sont considérés en multi-compte quand ils se connectent sur la même adresse IP       (même box internet, connexion public, cybercafé, Edge, 3G, etc...). Néanmoins, si les deux joueurs ne se reconnectent pas sous un délai de 7 jours via la même adresse IP,       alors le multi-compte est automatiquement supprimé. Il est possible de connaître la liste des joueurs en multi-compte avec le vôtre en allant dans l’onglet « Multi-compte » de la page « Commerce ».<br /><br />        Les membres d’une même famille peuvent jouer sur un même univers d'Antaris Legacy. Ils doivent accepter les règles écrites dans ce paragraphe, vous n’avez pas besoin de le déclarer sur le forum.<br /><br />        Il est strictement interdit de faire des échanges commerciaux (qu’ils soient directs ou indirects, c'est-à-dire, effectué par un joueur intermédiaire),       de s’attaquer et de s’espionner entre des joueurs en multi-compte. Le non-respect de cette règle entrainera une sanction. Les joueurs en multi-compte peuvent cependant être dans la même alliance.';
+$LNG['RULES_62']				= 'Vous ne pouvez avoir qu’un seul compte par univers. Le compte doit appartenir à une seule et unique personne puisque la cogérance est interdite sur Antaris Legacy.       Si vous êtes plusieurs à vous connecter à partir d’un même point d’accès internet, alors, reportez vous dans le paragraphe suivant : « Multi-compte ».<br /><br />        La connexion via un mobile peut provoquer des multi-comptes avec des joueurs que vous ne connaissez pas.       Veuillez vous reporter encore une fois au paragraphe « Multi-compte » pour de plus amples informations.<br /><br />        Le compte appartient uniquement à son propriétaire. L’adresse email renseignée dans la page du profil permet d’identifier le propriétaire lors d’une perte de mot de passe.       Par conséquent, lors d’un don de compte, veuillez modifier l’adresse email dans les plus brefs délais.'; */
+//CONDITIONS
+$LNG['CONDITION_1']				= 'Términos y Condiciones';
+$LNG['CONDITION_2']				= 'Introducción';
+$LNG['CONDITION_3']				= 'Servicios de Antaris Legacy';
+$LNG['CONDITION_4']				= 'Condiciones de Participación';
+$LNG['CONDITION_5']				= 'Requisitos previos para usar nuestros servicios';
+$LNG['CONDITION_6']				= 'Responsabilidades';
+$LNG['CONDITION_7']				= 'Propiedad';
+$LNG['CONDITION_8']				= 'Composición y Terminación';
+$LNG['CONDITION_9']				= 'Condiciones de afiliación';
+$LNG['CONDITION_10']			= 'Terminación por parte del usuario';
+$LNG['CONDITION_11']			= 'Resolución por parte de la empresa';
+$LNG['CONDITION_12']			= 'Reembolso';
+$LNG['CONDITION_13']			= 'Ley de Financiación';
+$LNG['CONDITION_14']			= 'Los contenidos, daños y hacks';
+$LNG['CONDITION_15']			= 'Contenido';
+$LNG['CONDITION_16']			= 'Daño';
+$LNG['CONDITION_17']			= 'Los hackers y / o intentos de piratería';
+$LNG['CONDITION_18']			= 'Acciones prohibidas';
+$LNG['CONDITION_19']			= 'Las acciones del usuario';
+$LNG['CONDITION_20']			= 'Programas';
+$LNG['CONDITION_21']			= 'Robo';
+$LNG['CONDITION_22']			= 'Inicio de sesión automático';
+$LNG['CONDITION_23']			= 'Reglas y limitaciones';
+$LNG['CONDITION_24']			= 'Número de cuenta';
+$LNG['CONDITION_25']			= 'Reglas';
+$LNG['CONDITION_26']			= 'No respeto';
+$LNG['CONDITION_27']			= 'Los datos personales CNIL';
+$LNG['CONDITION_28']			= 'Copia de seguridad de datos';
+$LNG['CONDITION_29']			= 'Comunicación';
+$LNG['CONDITION_30']			= 'Comisión Nacional de Informática y Libertades';
+$LNG['CONDITION_31']			= 'Aplicación y retirada';
+$LNG['CONDITION_32']			= 'Google Analytics';
+$LNG['CONDITION_33']			= 'La transferencia de datos';
+$LNG['CONDITION_34']			= 'Los derechos comerciales en las cuentas';
+$LNG['CONDITION_35']			= 'Visión de conjunto';
+$LNG['CONDITION_36']			= 'Prohibición de explotación';
+$LNG['CONDITION_37']			= 'Excepción';
+$LNG['CONDITION_38']			= 'Elementos del juego';
+$LNG['CONDITION_39']			= 'Modificaciones';
+$LNG['CONDITION_40']			= 'Términos y Condiciones';
+/* $LNG['CONDITION_41']			= 'Ces conditions générales d'utilisation ont été publiées le 10 novembre 2011 et elles sont applicables immédiatement.       Antaris Legacy peut à tout moment mettre à jour ces conditions générales, du moment que les utilisateurs en sont informés.';
+$LNG['CONDITION_42']			= 'Pour participer au jeu Antaris Legacy, l'utilisateur doit obligatoirement accepter ces conditions générales d'utilisation.       Elles traitent principalement des services en ligne ou de ce qui en découle.<br /><br />              En complément des conditions générales, s’appliqueront les règles de jeu en vigueur. En cas de contradictions entre les présentes règles d’utilisation et les règles de jeu,       ce sont les dispositions des conditions générales qui auront rang supérieur.';
+$LNG['CONDITION_43']			= 'Nos sites internet sont optimisés pour la navigation via un ordinateur de bureau ou un ordinateur portable. Par conséquent, nous ne pouvons pas garantir la       disponibilité et la fluidité de nos services sur les autres supports tels que les smartphones, et les tablettes.<br /><br />        L'utilisateur doit obligatoirement posséder la dernière version stable de son navigateur internet pour pouvoir adhérer et utiliser nos services.       De plus, il doit détenir un des navigateurs internet compatibles avec nos plateformes, dont voici la liste complète :       <ul>         <li>Mozilla Firefox</li>         <li>Google Chrome</li>       </ul>        Notre entreprise ne pourra pas être tenue pour responsable des bugs et des erreurs dans le cas du non-respect de ces pré-requis.';
+$LNG['CONDITION_44']			= 'Bien que Antaris Legacy fasse en sorte que l'ensemble de ses services fonctionnent correctement, il est possible que certaines       situations ou circonstances soient indépendantes de notre volonté. Elles peuvent conduire à un arrêt momentané ou à un dysfonctionnement       pour une durée indéterminée. Ainsi, l'utilisateur ne peut avoir de revendications concernant le bon fonctionnement des prestations et       des services fournis par Antaris Legacy.<br /><br />        Antaris Legacy ne peut pas être tenu pour responsable d'un dysfonctionnement d'un de ses serveurs ou d'une mauvaise programmation       (ceci n'est qu'un exemple parmi d'autres).<br /><br />         Néanmoins, le Staff d'Antaris Legacy mettra tout en oeuvre pour résoudre le plus rapidement possible les dysfonctionnements éventuels de ses services.';
+$LNG['CONDITION_45']			= 'Tous les services que nous mettons à disposition, dont les comptes et les éléments de ses comptes, sont la propriété exclusive d'Antaris Legacy.       Ils ne sont mise qu'à disposition des joueurs.<br /><br />        Les éléments mis à la disposition des utilisateurs restent des objets virtuels. Les transactions réelles concernant un compte sont donc interdites       (par exemple, un don de compte en échange d'un bien matériel est strictement prohibé).<br /><br />        Un compte utilisateur n'est pas transmissible sans l'approbation expresse d'Antaris Legacy ou d'un de ses représentants.';
+$LNG['CONDITION_46']			= ' Lorsqu'un joueur s'inscrit sur le jeu ou sur le forum, il accepte obligatoirement les conditions générales ici présentes.<br /><br />        Une adhésion n’est possible que pour les personnes physiques. L’autorisation d’utilisation ne vaut qu’à titre individuel (pas pour les groupes, les familles, etc...).       Si l’utilisateur à 13 ou moins de 13 ans, celui-ci doit pouvoir garantir d'être en possession d’une autorisation valable de son représentant légal.<br /><br />        Lors de l’adhésion, l’utilisateur devra indiquer un nom de joueur et une adresse email valide. Antaris Legacy se reservent le droit de vérifier cette       validité à tout moment et prendre les dispositions nécessaires en cas d'invalidité.<br /><br />        L'adresse email sert à identifier un propriétaire en cas de perte de son identifiant de connexion.       Par conséquent, il sera impossible de retransmettre un compte à son propriétaire si l'adresse email est invalide.<br /><br />              Lors de votre adhésion, vous autorisez Antaris Legacy à vous envoyer sa newsletter. Vous pouvez néanmoins vous désinscrire de celle-ci en cliquant       sur le lien de déscincription qui se situe en bas de chaque email « NewsLetter ».';
+$LNG['CONDITION_47']			= 'L'utilisateur peut décider de ne plus utiliser les services fournis par Antaris Legacy. Pour cela, il peut supprimer son ou ses comptes des plateformes de notre entreprise.       La suppression des comptes entraîne automatiquement la résiliation de ces conditions. Néanmoins, cet effacement peut être retardé pour des questions d'ordre technique.<br /><br />              L'utilisateur accepte automatiquement, et sans pouvoir s'y opposer, la résiliation de ce contract en cas d'absence de plus de 90 jours (absence de connexion à notre serveur).       Néanmoins, il y a plusieurs exceptions qui annulent la résiliation après inactivité : le compte est en mode pause ou vous avez effectué au moins un acte d'achat sur le jeu.<br /><br />              Antaris Legacy se réserve le droit de donner un compte après une résilitation grâce à un système de donation automatique.       Lorsque le système effectue cette donation, toutes les données personnelles de l'utilisateur tels que l'adresse email, les adresses IP, les messages,        sont supprimées de manière définitive.';
+$LNG['CONDITION_48']			= 'Si l'utilisateur ne respecte pas ces conditions générales et/ou le règlement du jeu lors de l'utilisation de nos services, alors       Antaris Legacy se réserve le droit d'effacer ou de bloquer le(s) compte(s) de l'utilisateur, sans que cela n'exclue la possibilité de sanctions supplémentaires.       L'effacement du compte est décidé par l'administrateur ou par un des modérateurs du service en question (en application du règlement du jeu, des conditions générales et de la loi Française).<br /><br />        Les quelconques revendications concernant un effacement de compte peuvent être portées auprès du forum (dans la section prévue à cet effet).       Il ne peut y avoir de revendications légales concernant la clôture d'un compte.        L'entreprise peut décider à n'importe quel moment de suspendre l'ensemble de ses services et de supprimer l'ensemble des comptes.       Pour cela, un membre de l'entreprise doit prévenir auparavant les utilisateurs de la résiliation de leurs comptes via un message visible sur le site d'Antaris Legacy.       Dans ce dernier cas, le délai minimum entre l'annonce de clôture et la suspension des services (et donc, la suppression des comptes) est d'un mois.';
+$LNG['CONDITION_49']			= 'Si l'utilisateur en fait la demande, il peut être remboursé dans les 14 jours qui ont suivi son ou ses achats Paypal (valable uniquement sur les achats effectués auprès de notre société,       via le mode paiement « Paypal »). Si vous souhaitez être remboursé des achats effectués via Allopass, vous devez les contacter par vos propres moyens afin d'avoir un remboursement.       Bien entendu, les services obtenus par le biais de ces achats seront retirés de votre compte.<br /><br />        Au delà de ce délai, aucun remboursement ne sera effectué par l'entreprise, même dans le cas d'une résiliation.       En effet, lorsqu'un utilisateur accepte une dépense, alors celle-ci ne lui donne pas le droit de demander un remboursement à la suite d'une résiliation par l'utilisateur ou par l'entreprise.<br /><br />        Enfin, un utilisateur ne peut pas demander à être remboursé suite à un bug ou à une erreur qui est survenu sur un de nos services.       Cependant, nous mettrons tout en oeuvre pour corriger les bugs contastés dans les plus brefs délais selon nos disponibilités.       En tant qu'auto-entrepeneur, il est possible que ces délais soient de l'ordre de plusieurs semaines pour les plus gros bugs.';
+$LNG['CONDITION_50']			= 'Lorsqu'un compte est financé en partie par un utilisateur à travers des extensions payantes, celui n'a accès qu'à       ce pourquoi il a payé : il ne peut rien revendiquer d'autre que l'extension qu'il a achetée.<br /><br />              Nous rappeleons que l'ensemble des achats effectués sur ce site sont uniquement virtuels et ils ne donnent aucun droit supplémentaire à l'utilisateur par rapport       à un utilisateur « lambda » n'ayant pas acheté d'extension.';
+$LNG['CONDITION_51']			= 'Antaris Legacy est un jeu, par conséquent, nous mettons en place une plateforme qui permet de mettre les joueurs en relation.       Seul l'utilisateur est responsable des propos qu'il tient envers les autres. Notre entreprise ne peut pas être tenue pour responsable.       Ainsi, les propos pornographiques, xénophobes, insultants ou à contenu illicite ne sont pas autorisés et relèvent de la responsabilité civile et/ou pénale de leurs auteurs.<br /><br />        Néanmoins, l'équipe de modération et d'administration s'efforce d'effacer et de supprimer les propos d'un utilisateur fautif.       De plus, Antaris Legacy se réserve le droit de bloquer et/ou de supprimer les comptes de ces utilisateurs sans préavis.       Ces sanctions n'excluent pas d'éventuelles poursuites civiles et/ou pénales, si l'entreprise le juge nécessaire.<br /><br />              De même, l'entreprise ne peut pas être tenue responsable des propos illicites d'un de ses représentants bénévoles (exemple : équipe de modération).';
+$LNG['CONDITION_52']			= 'Antaris Legacy n'est pas responsable des dommages, quelle qu'en soit la gravité, causés par l'utilisation d'un de nos services.       L'entreprise rappelle aux joueurs que l'utilisation excessive des jeux vidéo ou informatiques peut causer de sévères troubles physiques et/ou mentaux.       Chaque utilisateur est présumé en avoir connaissance, et par conséquent, en accepte les risques.';
+$LNG['CONDITION_53']			= 'Le piratage est puni par la loi. Tout piratage ou tentatives de piratages est passible de poursuites judiciaires. Est ici visé le piratage des services et serveurs de l'entreprise,       mais aussi des comptes d'utilisateurs. Toute tentative ou tout piratage entrainera des sanctions tels que le blocage du compte ou de l'adresse IP fautif. Les sanctions pénales pour cybercriminalité peuvent aller jusqu'à 5 ans d'emprisonnement et 75 000 euros d'amende.<br /><br />        Antaris Legacy a mis en place un système de chiffrement des données. Par conséquent, le piratage d'un compte de joueur ne peut être dû qu'à un mot de passe trop facile à pirater       (soit il est trop court, soit le mot de passe est trop simple). Nous vous conseillons de ne pas utiliser des mots de la vie courante, mais plutôt de composer un mot de passe       avec des chiffres et des lettres n'ayant aucune signification.<br /><br />        L’utilisateur s’oblige à conserver la stricte confidentialité de ses identifiants de connexion.       Il s’oblige aussi à n’entrer exclusivement ses identifiants de connexion que sur les pages du site internet exploité par Antaris Legacy.       Ainsi, nous recommandons vivement à l'utilisateur de vérifier qu'il se situe sur la bonne page d'authentification avant de renseigner son code d'accés lors de sa connexion.<br /><br />        Dans le cas du non-respect d'une des conditions écrites ci-dessus, l'entreprise ne pourra pas être tenue pour responsable de tout vol de compte ou piratage, ainsi que de leurs conséquences.';
+$LNG['CONDITION_54']			= 'L'utilisateur n'a pas le droit d'effectuer des actions qui ralentiraient le site Antaris Legacy, que ce soit par le biais d'un script ou d'autre chose.       Il n'a pas non plus le droit de bloquer le site, de le modifier, ou de reformuler le contenu ou tout autre contenu officiel rédirigé par un membre d'Antaris Legacy       sans autorisation préalable de l'administrateur.';
+$LNG['CONDITION_55']			= 'Il est strictement interdit d'utiliser des programmes autres qu'un navigateur classique pour naviguer sur notre site (utilisation et visualisation).       Antaris Legacy vise particulièrement tous les scripts ou programmes appelées « Bot » qui permettent de réaliser des actions automatiquement.       L'utilisation de tout add-ons et script permettant de simplifier, de faciliter, et de remplacer un humain est interdite et pourra entraîner de lourdes sanctions.<br /><br />              Afin de limiter la tricherie sur le jeu Antaris Legacy, l'utilisation de VPN/proxy ou d'autre programme permettant de cacher la provenance et/ou l'adresse IP de l'internaute est prohibée.       L'accés au jeu est déconseillé pour toutes les personnes souhaitant garder ses informations confidentielles.';
+$LNG['CONDITION_56']			= 'Il est strictement interdit à un utilisateur de se faire passer pour un membre de l'entreprise ou pour un membre appartenant à l'équipe de modération d'Antaris Legacy.       L'usurpation de l'identité « virtuelle » d'un membre de l'équipe entraînera un bannissement définitif et automatique de nos services.';
+$LNG['CONDITION_57']			= 'L'utilisateur doit obligatoirement se connecter « manuellement » à partir de la page d'accueil d'Antaris Legacy.       Les ouvertures et connexions automatiques sont strictement prohibées.';
+$LNG['CONDITION_58']			= 'L'utilisateur ne peut créer qu'un seul et unique compte par univers, sinon quoi il sera considéré comme étant un multicompte non-règlementaire.       La règle précédente s'applique sur l'ensemble de nos univers, mais elle peut être légalisée par un membre du Staff (lire le règlement pour en savoir d'avantage).       Le multicompte non-règlementaire peut être sanctionné sans préavis par divers moyens : avertissement, suspension des comptes fautifs et/ou suppression des comptes.';
+$LNG['CONDITION_59']			= 'Lorsqu'un joueur s'inscrit sur un de nos univers, sur un de nos sites ou sur le forum, il accepte obligatoirement les conditions générales (ci-présentes)       et le règlement du service auquel il adhère. Par conséquent, il connait l'ensemble des règles et conditions générales puisqu'il les a lues et acceptées.';
+$LNG['CONDITION_61']			= 'Suite au non respect du règlement du jeu ou des conditions générales, l'utilisateur peut être bloqué temporairement ou définitivement.       Le blocage peut être valable sur une partie ou la totalité des services proposés par Antaris Legacy.';
+$LNG['CONDITION_62']			= 'Antaris Legacy sauvegarde vos données personnelles dans le but de vérifier le respect du règlement du jeu et des conditions générales.       Ces données peuvent être d'ordre technique (adresse IP, heure de connexion, navigateur utilisé, système d'exploitation, adresse email fournie lors de l'inscription),       mais elles peuvent être aussi d'ordre statistique (nombre d'achats, âge moyen, sexe) ou voire personnelles.<br /><br />        Ces données ont pu être soit fournies sur la demande de l'entreprise lors de la création du compte, soit, le cas échéant, fournies volontairement par l'utilisateur.<br /><br />              Antaris Legacy met tout en oeuvre pour sauvegarder vos données personnelles de manière sécurisée. Cependant, l'entreprise ne peut pas être tenue comme responsable       de la fuite de ces données dans le cas d'un piratage d'un de ses services.';
+$LNG['CONDITION_63']			= 'Antaris Legacy se réserve le droit de communiquer l'ensemble de ces données aux autorités Françaises,       dans le but de protéger ses intérêts ou en cas d'éventuels manquements aux dispositions légales.';
+$LNG['CONDITION_64']			= 'Nous rappelons à nos utilisateurs que, pour le respect de la protection de leurs données personnelles, détaillé dans le présent paragraphe,       Antaris Legacy est enregistrée à la CNIL sous le numéro 1 538 743 (Fichiers clients-prospects) et le numéro 1 538 741 (Traitements statistiques).';
+$LNG['CONDITION_65']			= 'Vous pouvez demander à Antaris Legacy de vous fournir toutes les données personnelles vous concernant, pour cela, contactez-nous via l'adresse email suivante : staff@antaris-legacy.co.       Si vous demandez la suppression de vos données personnelles, cela entrainera automatiquement la suppression et la résiliation de l'ensemble de vos comptes utilisateurs.';
+$LNG['CONDITION_66']			= 'Antaris Legacy utilise Google Analytics, un service d'analyse de site internet fourni par Google Inc. (Google).<br /><br />        Google Analytics utilise des cookies qui sont des fichiers texte placés sur votre ordinateur, pour aider le site web à analyser l'utilisation du site par ses utilisateurs.       Les données générées par les cookies concernant votre utilisation du site (y compris votre adresse IP) seront transmises et stockées par Google sur des serveurs situés aux Etats-Unis.<br /><br />              Google utilisera cette information dans le but d'évaluer votre utilisation du site, de compiler des rapports sur l'activité du site à destination d'Antaris Legacy et       de fournir d'autres services relatifs à l'activité du site et à l'utilisation d'Internet.<br /><br />              Google est susceptible de communiquer ces données à des tiers en cas d'obligation légale ou lorsque ces tiers traitent ces données pour le compte de Google,       y compris notamment l'éditeur de ce site. Google ne recoupera pas votre adresse IP avec toute autre donnée détenue par Google.<br /><br />        Vous pouvez désactiver l'utilisation de cookies en sélectionnant les paramètres appropriés de votre navigateur.       Cependant, une telle désactivation pourrait empêcher l'utilisation de certaines fonctionnalités de ce site.       En utilisant les plateformes d'Antaris Legacy, vous consentez expressément au traitement de vos données nominatives par Google dans les conditions et pour les finalités décrites ci-dessus.';
+$LNG['CONDITION_67']			= 'Vos données personnelles ne seront naturellement pas vendues à des tiers. Toutefois, Antaris Legacy transmet à des tiers les données personnelles communiquées par vos soins,       outre l’utilisation de Google Analytics, uniquement dans les cas suivants : prestataires de services de paiement (PayPal, AlloPass),       hébergeur (OVH). Ces prestataires n'ont accès à vos données personnelles que dans la limite autorisée leur permettant d'effectuer leurs missions.       Ces prestataires sont tenus de traiter vos données personnelles conformément à la présente déclaration de protection des données personnelles ainsi       qu'aux lois élémentaires régissant la protection des données.';
+$LNG['CONDITION_68']			= 'Tous les comptes sont la propriété d'Antaris Legacy. Il est de même pour tous les éléments qui s'y trouvent (sur les comptes) tels que les ressources, les unités, les bâtiments, les technologies, etc ...       Aucun droit, en particulier ceux concernant l'exploitation, ne peut être conféré à l'utilisateur.';
+$LNG['CONDITION_69']			= 'De manière générale, sans la permission écrite de l'entreprise, il est interdit de contracter avec une tierce partie un quelconque accord concernant le transfert,       l'utilisation ou le stockage des comptes ou des données personnelles. Il est donc particulièrement interdit de vendre les comptes ou les ressources       (ou autre composant d'un compte), ou encore de faire un quelconque profit en quittant son compte (ou l'un de ses composants) au profit d'un tiers :       en effet, il est toujours la propriété d'Antaris Legacy et ne peut donc faire l'objet de transaction.<br /><br />        Les mêmes interdictions sont valables pour les données personnelles et les droits d'utilisation.       Est particulièrement concernée ici, toute transaction contre des Allopass, ou toute chose de valeur.<br /><br />        La violation de ces règles ou de tout autre droit de la société, particulièrement celles concernant le copyright,       sera transmise aux autorités et sanctionnée par des poursuites civiles et/ou pénales. Des sanctions supplémentaires pourront aussi être       prises par l'entreprise, notamment, le blocage de tous les comptes de l'utilisateur fautif.';
+$LNG['CONDITION_70']			= 'Il est possible de donner gratuitement son compte à un autre utilisateur, ou de l'échanger. Cependant, ces actions doivent respecter le règlement.';
+$LNG['CONDITION_71']			= 'L'entreprise peut effectuer des modifications sur le code source du jeu, sur le fonctionnement et les caractéristiques des éléments virtuels (bâtiment, technologie, appareils, etc...)       à n'importe quel moment, sans préavis et sans avoir besoin de prévenir les utilisateurs.<br /><br />              L'ensemble des éléments virtuels mis à la disposition du joueur peuvent être sujet à modification et/ou à la suppression sans que l'utilisateur ne puissent contester (à part       par la suppression de son compte).';
+$LNG['CONDITION_72']			= 'Antaris Legacy se réserve le droit de modifier (au sens large) les conditions générales et les autres dispositions à tout moment.        Ces modifications ou extensions seront effectives dès qu'un membre d'Antaris Legacy annoncera ces changements sur un des supports web.<br /><br />         Une fois valides, ces modifications ont un effet rétroactif : tous les comptes déjà créés ainsi que toutes les actions en cours de traitement,        ou non encore traitées, sont alors soumis à ces nouvelles dispositions, sans que le joueur puisse s'y opposer autrement que par la suppression de son compte.'; */
